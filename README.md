@@ -1,5 +1,15 @@
 First talk about process
 
+- This is going to be very hard. It is going to be much more difficult for some of you than for others. Please try and recognize that in one another and help each other as much as you possibly can.
+- Work together. Help one another as much as possible. Learn through teaching
+- Talk about my Flatiron experience.
+
+  - Coming early / staying late
+  - Weekends
+  - "study groups"
+  - Drilling labs over and over and over again
+  - The solution branch on labs
+
 - Lectures are recorded - Here is where you can find lecture code
 - Here is how to clone down the repo
 - Lecture priorities:
