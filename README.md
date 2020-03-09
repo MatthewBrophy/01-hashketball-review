@@ -95,11 +95,7 @@ Second talk about actual hashketball
 - team_names
   ```
   def team_names
-    teams = []
-    game_hash.values.each do |team|
-      teams << team[:team_name]
-    end
-    teams
+    game_hash.values.map {|value| value[:team_name]}
   end
   ```
 - player_numbers
@@ -119,12 +115,7 @@ Second talk about actual hashketball
 - player_stats
   ```
   def player_stats(player)
-    target_player = ""
-    get_players.each do |person|
-      if person[:player_name] == player
-        target_player = person
-      end
-    end
+    target_player = get_players().select {|person| person[:player_name] == player}
     target_player.delete(:player_name)
     target_player
   end
