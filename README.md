@@ -43,6 +43,9 @@ Second talk about actual hashketball
 - Walk through the lab and solve each of the tests systematically
 - Test driven development
 
+  - check out spec file
+  - '--f-f'
+
 - Create a helper method first to grab all players
   ```
   def get_players
